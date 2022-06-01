@@ -1,8 +1,9 @@
 {
   "name": "@tatara-takumi/packages-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.ts",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "scripts": {
     "test": "exit 0"
   },
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tatara-takumi/packages-test/issues"
   },
-  "homepage": "https://github.com/tatara-takumi/packages-test#readme"
+  "homepage": "https://github.com/tatara-takumi/packages-test#readme",
+  "devDependencies": {
+    "typescript": "^4.7.2"
+  }
 }
